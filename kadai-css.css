@@ -1,0 +1,32 @@
+@charset "UTF-8";
+
+/* セクション：ページ全体のCSS設定 */
+body {
+    margin: 0;
+    padding: 0;
+    color: #333;
+
+header {
+    width:  1000px;
+    background-color: #ffcccc;
+}
+#wrapper {
+    width: 1000px;
+    display: flex;
+    justify-content: space-between;
+}
+#main {
+    width: 700px;
+    background-color: #ccffcc;
+    font-size: 25px;
+}
+#menu {
+    width: 300px;
+    background-color: #ccccff;
+    font-size: 20px;
+}
+footer {
+     width:    1000px;
+        background-color: #ffccff;
+}
+}
